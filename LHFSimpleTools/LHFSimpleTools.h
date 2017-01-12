@@ -3,6 +3,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#import "UIView+Frame.h"
+
 @interface LHFSimpleTools : NSObject
 
                      #pragma mark - 初始化
