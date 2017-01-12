@@ -63,4 +63,22 @@
     return image;
 }
 
+
+/**
+ 字符串截取
+ @param string 要截取的字符串
+ @param start 从哪个字符串开始截取
+ @param end 到哪个字符串结束
+ @return 返回截取好的字符串
+ */
++(NSString *)rangeOfString:(NSString *)string start:(NSString *)start end:(NSString *)end {
+    NSRange startRange = [string rangeOfString:start];
+    NSRange endRange = [string rangeOfString:end];
+    
+    NSUInteger startIndex = startRange.location + startRange.length;
+    NSUInteger length = endRange.location - (startRange.length + startRange.location);
+    
+    return [string substringWithRange:NSMakeRange(startIndex, length)];
+}
+
 @end

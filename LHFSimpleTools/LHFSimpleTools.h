@@ -1,4 +1,4 @@
-/*================================= 一套自己的小工具 ================================*/
+/*======================== 一套自己的小工具 ( 最后更新 : 2017-01-12 ) ==========================*/
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -13,7 +13,7 @@
 +(instancetype)sharedLHFSimpleTools;
 
 
-                     #pragma mark - UIImage 相关的工具 -
+                   #pragma mark - 🎈UIImage 相关的工具🎈  -
 /*================================= UIImage 相关的工具 ================================*/
 
 #pragma mark 通过图片上下文来压缩图片
@@ -41,6 +41,20 @@
  @return 返回圆/椭圆图片
  */
 +(UIImage *)clipRoundImage:(UIImage *)originalImage;
+
+
+                   #pragma mark - 🎈NSString 相关的工具🎈 -
+/*================================= NSString 相关的工具 ================================*/
+
+#pragma mark 字符串截取
+/**
+ 字符串截取
+ @param string 要截取的字符串
+ @param start 从哪个字符串开始截取
+ @param end 到哪个字符串结束
+ @return 返回截取好的字符串
+ */
++(NSString *)rangeOfString:(NSString *)string start:(NSString *)start end:(NSString *)end;
 
 
 
