@@ -15,7 +15,7 @@
 +(instancetype)sharedLHFSimpleTools;
 
 
-                   #pragma mark - 🎈UIImage 相关的工具🎈  -
+                   #pragma mark - 🎈UIImage 相关的工具🎈 -
 /*================================= UIImage 相关的工具 ================================*/
 
 #pragma mark 通过图片上下文来压缩图片
