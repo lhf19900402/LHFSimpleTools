@@ -3,7 +3,7 @@
 @implementation LHFSimpleTools
 
 
-+(instancetype)sharedLHFSimpleTools{
++ (instancetype)sharedLHFSimpleTools{
     
     static LHFSimpleTools *instance;
     
@@ -16,7 +16,7 @@
 }
 
 
-+(UIImage *)getImageFromCurrentImageContext:(UIImage *)originalImage withWidth:(CGFloat)width {
++ (UIImage *)getImageFromCurrentImageContext:(UIImage *)originalImage withWidth:(CGFloat)width {
     CGFloat height = (width*originalImage.size.height)/originalImage.size.width;
     UIGraphicsBeginImageContextWithOptions(CGSizeMake(width, height), NO, 0.0);
     [originalImage drawInRect:CGRectMake(0, 0, width, height)];
@@ -26,7 +26,7 @@
 }
 
 
-+(UIImage *)clipImage:(UIImage *)originalImage cornerRadius:(CGFloat)cornerRadius {
++ (UIImage *)clipImage:(UIImage *)originalImage cornerRadius:(CGFloat)cornerRadius {
     // 01 开启图片上下文 第二个参数 NO 代表透明
     UIGraphicsBeginImageContextWithOptions(originalImage.size, NO, 0.0);
     // 02 添加一个圆角
@@ -43,7 +43,7 @@
 }
 
 
-+(UIImage *)clipRoundImage:(UIImage *)originalImage {
++ (UIImage *)clipRoundImage:(UIImage *)originalImage {
     // 01 开启图片上下文 第二个参数 NO 代表透明
     UIGraphicsBeginImageContextWithOptions(originalImage.size, NO, 0.0);
     // 02 获得上下文
@@ -64,7 +64,7 @@
 }
 
 
-+(NSString *)rangeOfString:(NSString *)string start:(NSString *)start end:(NSString *)end {
++ (NSString *)rangeOfString:(NSString *)string start:(NSString *)start end:(NSString *)end {
     NSRange startRange = [string rangeOfString:start];
     NSRange endRange = [string rangeOfString:end];
     

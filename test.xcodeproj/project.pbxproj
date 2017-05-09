@@ -15,7 +15,7 @@
 		F78A8EE21DFE3EAB00853F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78A8EE11DFE3EAB00853F4E /* Assets.xcassets */; };
 		F78A8EE51DFE3EAB00853F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F78A8EE31DFE3EAB00853F4E /* LaunchScreen.storyboard */; };
 		F83FB2E91E273ADC00A20732 /* LHFSimpleTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F83FB2E81E273ADC00A20732 /* LHFSimpleTools.m */; };
-		F83FB2EC1E27BADB00A20732 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F83FB2EB1E27BADB00A20732 /* UIView+Frame.m */; };
+		F8778E4F1E9C7C5300A442BB /* UIView+LHFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F8778E4E1E9C7C5300A442BB /* UIView+LHFFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +34,9 @@
 		F78A8EE61DFE3EAB00853F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F83FB2E71E273ADC00A20732 /* LHFSimpleTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHFSimpleTools.h; sourceTree = "<group>"; };
 		F83FB2E81E273ADC00A20732 /* LHFSimpleTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHFSimpleTools.m; sourceTree = "<group>"; };
-		F83FB2EA1E27BADB00A20732 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		F83FB2EB1E27BADB00A20732 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F85459391EC1EE8100CBCBA8 /* LHFMacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHFMacroDefinition.h; sourceTree = "<group>"; };
+		F8778E4D1E9C7C5300A442BB /* UIView+LHFFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LHFFrame.h"; sourceTree = "<group>"; };
+		F8778E4E1E9C7C5300A442BB /* UIView+LHFFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LHFFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +116,9 @@
 			children = (
 				F83FB2E71E273ADC00A20732 /* LHFSimpleTools.h */,
 				F83FB2E81E273ADC00A20732 /* LHFSimpleTools.m */,
-				F83FB2EA1E27BADB00A20732 /* UIView+Frame.h */,
-				F83FB2EB1E27BADB00A20732 /* UIView+Frame.m */,
+				F85459391EC1EE8100CBCBA8 /* LHFMacroDefinition.h */,
+				F8778E4D1E9C7C5300A442BB /* UIView+LHFFrame.h */,
+				F8778E4E1E9C7C5300A442BB /* UIView+LHFFrame.m */,
 			);
 			path = LHFSimpleTools;
 			sourceTree = SOURCE_ROOT;
@@ -247,8 +249,8 @@
 				F83FB2E91E273ADC00A20732 /* LHFSimpleTools.m in Sources */,
 				F78A8EDD1DFE3EAB00853F4E /* ViewController.m in Sources */,
 				F78A8EDA1DFE3EAB00853F4E /* AppDelegate.m in Sources */,
-				F83FB2EC1E27BADB00A20732 /* UIView+Frame.m in Sources */,
 				F78A8ED71DFE3EAB00853F4E /* main.m in Sources */,
+				F8778E4F1E9C7C5300A442BB /* UIView+LHFFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
