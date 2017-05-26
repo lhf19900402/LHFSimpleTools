@@ -11,7 +11,17 @@
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 // 适配屏幕的比例
-#define Scale [UIScreen mainScreen].bounds.size.width/375
+#define SCREEN_SCALE [UIScreen mainScreen].bounds.size.width/375
+//导航以下起始y
+#define Height_NavBar 64
+//系统UIableBar高度
+#define Height_Tabbar 49
+
+
+#pragma mark - 常用对象 -
+/* * * * * * * * * * * * * * *  常用对象  * * * * * * * * * * * * * * * */
+// 上一级控制器
+#define PUSH_CONTROLLER(navigationController) navigationController.viewControllers[navigationController.viewControllers.count - 2]
 
 
 #pragma mark - 调试自定义打印 -
